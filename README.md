@@ -4,12 +4,11 @@
 
 ## Lancer le projet
 
-#### Installation des dependances du projet :
+#### Installation des dependances du projet :  
+   `yarn install`  
 
-### `yarn install`  
 
-
-#### Execution du projet :
-### `yarn start`
+#### Execution du projet :  
+   `yarn start`
 
 voir le projet via le lien.\ [http://localhost:3000](http://localhost:3000) dans votre navigateur.
