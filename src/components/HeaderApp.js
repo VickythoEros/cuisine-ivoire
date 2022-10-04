@@ -17,17 +17,17 @@ export default function HeaderApp(){
                                 <div className="menu">
                                     <ul className="lab-ul">
                                         <li>
-                                            <NavLink className="header-li-a text-white"  to="/">Accueil</NavLink>
+                                            <NavLink className="header-li-a"  to="/">Accueil</NavLink>
                                           
                                         </li>
                                         
                                         <li>
-                                            <NavLink className="header-li-a text-white"   to="/cours">Cours</NavLink>
+                                            <NavLink className="header-li-a"   to="/cours">Cours</NavLink>
                                           
                                         </li>
                                       
                                         <li>
-                                            <NavLink className="header-li-a text-white"  to="/recettes" >Recettes</NavLink>
+                                            <NavLink className="header-li-a "  to="/recettes" >Recettes</NavLink>
                                            
                                         </li>
                                     </ul>

@@ -1,6 +1,6 @@
 
 export default function BannerApp(){
-
+    // imgAccueil.jpg
     return(
        <>
        <section className="banner-section style-1">

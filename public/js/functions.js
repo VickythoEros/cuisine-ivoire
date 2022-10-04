@@ -113,14 +113,14 @@
 
         //Header
         var fixed_top = $("header");
-        var header_li_a = $(".header-li-a")
+        // var header_li_a = $(".header-li-a")
         $(window).on('scroll', function () {
             if ($(this).scrollTop() > 300) {
                 fixed_top.addClass("header-fixed fadeInUp");
-                header_li_a.removeClass("text-white")
+                // header_li_a.removeClass("text-white")
             } else {
                 fixed_top.removeClass("header-fixed fadeInUp");
-                header_li_a.addClass("text-white")
+                // header_li_a.addClass("text-white")
             }
             $('.count').data('countToOptions', {
                 formatter: function (value, options) {

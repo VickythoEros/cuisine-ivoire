@@ -2857,8 +2857,11 @@ button {
 
 /* @@@@@@@@@@@@@  Banner Section Start Here  @@@@@@@@@@@@@@ */
 .banner-section {
-  background-image: url(../images/alloco.jpg);
-  background-size: cover;
+  background-image: url(../images/imgAccueil.jpg);
+  /* background-size: cover; */
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
   padding-top: 170px;
 }
 @media (min-width: 576px) {
@@ -3059,6 +3062,8 @@ button {
 }
 .banner-section .section-wrapper .banner-content .title {
   margin-bottom: 15px;
+  color: #046e11;
+
 }
 @media (min-width: 992px) {
   .banner-section .section-wrapper .banner-content .title {
