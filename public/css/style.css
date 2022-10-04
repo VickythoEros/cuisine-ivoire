@@ -5124,6 +5124,10 @@ button {
 }
 
 /*@@@@@@@@@@@@@@   Shop Page Start Here  @@@@@@@@@@@@@@@@@*/
+.shop-page{
+  background: rgb(148, 227, 185);
+}
+
 .shop-page .section-header h4 span {
   font-weight: 400;
 }

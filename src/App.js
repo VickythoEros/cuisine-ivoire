@@ -11,6 +11,7 @@ const Accueil = lazy(()=>import('./views/Accueil'));
 const Connexion = lazy(()=>import('./views/Connexion'));
 const Cours = lazy(()=>import('./views/Cours'));
 const DetailsCours = lazy(()=>import('./views/DetailsCours'));
+const Recettes = lazy(()=>import('./views/Recettes'));
 const Inscription = lazy(()=>import('./views/Inscription'));
 
 const loader= (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/" element={<Accueil />} />
         <Route path="/cours" element={<Cours />} />
         <Route path="/cours/:id_cours" element={<DetailsCours />} />
+        <Route path="/recettes" element={<Recettes />} />
         <Route path="/connexion" element={<Connexion />} />
         <Route path="/inscription" element={<Inscription />} />
 
